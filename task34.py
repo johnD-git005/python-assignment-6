@@ -1,22 +1,22 @@
-"""→ # 35
-def task35_student_pass_fail(score):
+"""→ # 34
+def task34_capitalize_names(names):
     
-    Task 35:
-    Write a function that accepts a student's score
-    and returns "Pass" if score >= 50, otherwise "Fail".
+    Task 34:
+    Write a function that accepts a list of names in lowercase
+    and returns a new list with each name capitalized.
+    Example: ["john", "mary"] → ["John", "Mary"]
     
     pass"""
 
+def task34_capitalize_names(names):
 
-def task35_student_pass_fail(score):
-	
-	if score >= 50:
-		return f"Score:{score} →  Pass"
+	new_names = []
 
-	elif score < 0:
-		return f"Score:{score} →  Invalid score!"
+	for name in names:
+		capitalized_name = name.capitalize()
+		new_names.append(capitalized_name)
 
-	else:
-		return f"Score:{score} →  Fail"
+	return f"{names} →  {new_names}"
 
-print(task35_student_pass_fail(49))
+print(task34_capitalize_names(["john", "mary"]))
+ 
