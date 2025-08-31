@@ -8,7 +8,8 @@ def task2_square_number(n):
     pass """
 
 def task2_square_number(n):
-	return (n * n)
+	result = n * n
+	return f"Square of {n} = {result}"
 
 print(task2_square_number(5))
 print(task2_square_number(6))

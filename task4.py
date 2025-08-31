@@ -10,7 +10,7 @@ def task4_area_of_rectangle(length, width):
 
 def task4_area_of_rectangle(length, width):
 	area = length * width
-	return area
+	return f"Area = {area}"
 
 print(task4_area_of_rectangle(2.5, 5))
 print(task4_area_of_rectangle(3, 5))

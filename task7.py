@@ -14,7 +14,7 @@ def task7_find_max(a, b, c):
 		if num > largest:
 			largest = num
 
-	return largest	
+	return f"Largest number in {a}, {b}, {c} is: {largest}"
 
 		
 

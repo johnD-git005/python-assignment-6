@@ -9,7 +9,7 @@ def task6_celsius_to_fahrenheit(celsius):
 
 def task6_celsius_to_fahrenheit(celsius):
 	temperature = (celsius * 9/5) + 32
-	return temperature
+	return f"Temperature = {temperature}"
 
 print(task6_celsius_to_fahrenheit(5))
 print(task6_celsius_to_fahrenheit(15))

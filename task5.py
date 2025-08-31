@@ -10,7 +10,7 @@ def task5_perimeter_of_square(side):
 
 def task5_perimeter_of_square(side):
 	perimeter = 4 * side
-	return perimeter
+	return f"Perimeter = {perimeter}"
 
 print(task5_perimeter_of_square(5))
 print(task5_perimeter_of_square(7))

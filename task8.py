@@ -9,10 +9,10 @@ def task8_even_or_odd(n):
 
 def task8_even_or_odd(n):
 	if n % 2 == 0:
-		return "Even"
+		return f"{n} is Even"
 
 	else:
-		return "Odd"
+		return f"{n} is Odd"
 
 print(task8_even_or_odd(20))
 print(task8_even_or_odd(23))
