@@ -1,4 +1,5 @@
 """# 39
+
 def task39_is_leap_year(year):
     
     Task 39:
@@ -19,6 +20,5 @@ def task39_is_leap_year(year):
 
 	else:
 		return f"Year: {year} →  False"
-
 
 print(task39_is_leap_year(1900))
