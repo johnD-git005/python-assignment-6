@@ -13,7 +13,6 @@ def task47_find_longest_word(sentence):
     list_word = []
     longest_word = []
     
-
     for word in split_sentence:
         list_word.append(len(word))
 
